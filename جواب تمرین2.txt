@@ -1,0 +1,16 @@
+جواب سوال1:
+mkdir -p project/asseta/css project/asseta/py project/pages
+
+جواب سوال2:
+touch info.txt
+ln info.txt info_s.txt
+ln -s info.txt info_h.txt
+rm info.txt
+cat info_s.txt
+ارور نمیده و محتویات فایل info_s.txt را نمایش میدهد
+cat info_s.txt
+از آنجایی که سیمبلیک به فایل اینفو اصلی وصل است(مثل یک شورت کات) و فایل اینفو اصلی هم حذف شده، ارور فایلی موجود نیست را نمایش میدهد و منبع خود را بطورکامل از دست داده است
+
+جواب سوال3:
+a)rm -i
+b)rm -f 
